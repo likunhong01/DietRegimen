@@ -1,8 +1,8 @@
 这里放项目相关的东西
 # 食疗养生说明文档
-# 功能点接口说明
+## 功能点接口说明
 
-##登录，注册与找回密码
+###登录，注册与找回密码
 ####登录
 - url:http://local/login
 - 请求方法：POST
@@ -10,6 +10,7 @@
     - 账号: username
     - 密码：password
 - 返回值：返回渲染后的首页？
+
 ####注册
 - url：http://local/register
 - 请求方式：POST
@@ -19,6 +20,7 @@
     - 手机号：phone_num
     - 邮箱：email
 - 返回值：登录页面
+
 ####找回密码
 - url：http://local/find-password
 - 请求方式：POST
