@@ -30,9 +30,9 @@
 ### 食谱表：menu
 字段 | 命名 | 数据类型 | 说明 
 ---|---|---|---
-- 食谱id	|	menu_id
-- 用户id		|user_id
-- 食谱名称|	menu_name
+食谱id|menu_id
+用户id|user_id
+食谱名称|menu_name
 
 ### 食谱-标签表：menu_tag
 字段 | 命名 | 数据类型 | 说明 
@@ -44,15 +44,15 @@
 ### 标签表 ：tag
 字段 | 命名 | 数据类型 | 说明 
 ---|---|---|---
-- 标签id |		tag_id
-- 标签名	|	tag_name
+标签id |		tag_id
+标签名	|	tag_name
 是否有效|effective
 
 ### 用户收藏表：collect
 字段 | 命名 | 数据类型 | 说明 
 ---|---|---|---
-- 用户id	|	user_id
-- 菜品id	|	food_id
+用户id	|	user_id
+菜品id	|	food_id
 
 ### 食谱-菜品表：menu_food
 字段 | 命名 | 数据类型 | 说明 
@@ -226,4 +226,3 @@
       - content内容：不超过300字
       - e_mail：邮箱格式
       - contact：联系方式（手机或者qq）
-
